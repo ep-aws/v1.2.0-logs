@@ -7,16 +7,16 @@
         "bap_uri": "https://seller-app-preprod-v2.ondc.org/protocol/logistics/v1/",
         "bpp_id": "stage-ondc.qwqer.in",
         "bpp_uri": "https://stage-ondc.qwqer.in/",
-        "transaction_id": "2666c065-ee82-4552-b173-ce58d2b68752",
-        "message_id": "54c32c36-ad57-4176-a267-ec0af4f0c812",
+        "transaction_id": "c2241e46-5f61-4c9d-828b-20e6f0165478",
+        "message_id": "bbc5950a-4a46-4c51-b1b1-fec32ef7e379",
         "city": "std:080",
         "country": "IND",
-        "timestamp": "2024-03-21T10:38:57.113Z",
+        "timestamp": "2024-04-24T09:53:43.022Z",
         "ttl": "PT30S"
     },
     "message": {
         "order": {
-            "id": "2024-03-21-991208",
+            "id": "2024-04-24-230670",
             "state": "Accepted",
             "provider": {
                 "id": "P1"
@@ -26,11 +26,11 @@
                     "id": "F1",
                     "time": {
                         "label": "TAT",
-                        "duration": "PT26M",
-                        "timestamp": "2024-03-21"
+                        "duration": "PT41M",
+                        "timestamp": "2024-04-24"
                     },
                     "price": {
-                        "value": "55.0",
+                        "value": "20.0",
                         "currency": "INR"
                     },
                     "descriptor": {
@@ -46,13 +46,13 @@
             ],
             "quote": {
                 "price": {
-                    "value": "55.0",
+                    "value": "20.0",
                     "currency": "INR"
                 },
                 "breakup": [
                     {
                         "price": {
-                            "value": "55.0",
+                            "value": "20.0",
                             "currency": "INR"
                         },
                         "@ondc/org/item_id": "F1",
@@ -74,59 +74,61 @@
                     "type": "Delivery",
                     "start": {
                         "location": {
-                            "gps": "12.980753609627966,77.5968647003174",
+                            "gps": "12.98616906803149,77.60472893714906",
                             "address": {
-                                "area_code": "560001",
+                                "area_code": "560051",
                                 "name": "QWQER",
                                 "building": "dvydvyxdvh",
-                                "locality": "Vasant Nagar",
+                                "locality": "Russel Square",
                                 "city": "Bengaluru",
                                 "state": "Karnataka",
                                 "country": "India"
                             }
                         },
                         "contact": {
-                            "phone": "9207612472",
+                            "phone": "8075537875",
                             "email": "sajithj03@gmail.com"
                         },
                         "person": {
                             "name": "QWQER"
                         },
                         "time": {
-                            "duration": "PT26M",
-                            "timestamp": "2024-03-21T10:38:57.513Z",
+                            "duration": "PT35M",
                             "range": {
-                                "start": "2024-03-21T10:38:57.513Z",
-                                "end": "2024-03-21T11:04:57.513Z"
+                                "start": "2024-04-24T09:53:43.022Z",
+                                "end": "2024-04-24T10:28:43.022Z"
                             }
+                        },
+                        "instructions": {
+                            "code": "2",
+                            "short_desc": "value",
+                            "long_desc": "additional instructions for pickup"
                         }
                     },
                     "end": {
                         "contact": {
-                            "email": "sajithj03@gmail.com",
-                            "phone": "09207612472"
+                            "email": "sajith.jayaram@gmail.com",
+                            "phone": "9645502689"
                         },
                         "person": {
-                            "name": "Sajith J"
+                            "name": "Sajith Jayaram"
                         },
                         "location": {
-                            "gps": "12.980847701611442,77.59676277637483",
+                            "gps": "12.980085,77.597954",
                             "address": {
-                                "name": "Sajith J",
-                                "building": "dhbhbcf",
-                                "locality": "Raj Bhavan Road",
+                                "name": "Sajith Jayaram",
+                                "building": "chinnaswamy building",
+                                "locality": "Queens Road",
                                 "city": "Bengaluru",
                                 "state": "Karnataka",
                                 "country": "IND",
-                                "area_code": "560051"
+                                "area_code": "560001"
                             }
                         },
                         "time": {
-                            "duration": "PT26M",
-                            "timestamp": "2024-03-21T10:38:57.513Z",
                             "range": {
-                                "start": "2024-03-21T11:04:57.513Z",
-                                "end": "2024-03-21T11:30:57.513Z"
+                                "start": "2024-04-24T10:28:43.022Z",
+                                "end": "2024-04-24T10:34:43.022Z"
                             }
                         }
                     },
@@ -169,19 +171,19 @@
             ],
             "billing": {
                 "address": {
-                    "name": "Sajith J",
-                    "building": "dhbhbcf",
-                    "locality": "Raj Bhavan Road",
+                    "name": "Sajith Jayaram",
+                    "building": "chinnaswamy building",
+                    "locality": "Queens Road",
                     "city": "Bengaluru",
                     "state": "Karnataka",
                     "country": "IND",
-                    "area_code": "560051"
+                    "area_code": "560001"
                 },
-                "phone": "9207612472",
-                "name": "Sajith J",
+                "phone": "8075537875",
+                "name": "Sajith Jayaram",
                 "email": "sajithj03@gmail.com",
-                "created_at": "2024-03-21T10:38:51.666Z",
-                "updated_at": "2024-03-21T10:38:51.666Z",
+                "created_at": "2024-04-24T09:53:34.035Z",
+                "updated_at": "2024-04-24T09:53:34.035Z",
                 "tax_number": "22AAAAA0000A1Z5"
             },
             "payment": {
@@ -192,11 +194,11 @@
                 "items": [
                     {
                         "descriptor": {
-                            "name": "QWQER Nuts"
+                            "name": "Cake"
                         },
                         "price": {
                             "currency": "INR",
-                            "value": "1300"
+                            "value": "250"
                         },
                         "category_id": "Grocery",
                         "quantity": {
@@ -213,17 +215,17 @@
                         "name": "QWQER"
                     },
                     "address": {
-                        "area_code": "560001",
+                        "area_code": "560051",
                         "name": "QWQER",
                         "building": "dvydvyxdvh",
-                        "locality": "Vasant Nagar",
+                        "locality": "Russel Square",
                         "city": "Bengaluru",
                         "state": "Karnataka",
                         "country": "India"
                     }
                 },
                 "order": {
-                    "id": "2024-03-21-991208",
+                    "id": "2024-04-24-230670",
                     "weight": {
                         "unit": "kilogram",
                         "value": 5
@@ -244,82 +246,8 @@
                     }
                 }
             },
-            "cancellation_terms": [
-                {
-                    "fulfillment_state": {
-                        "descriptor": {
-                            "code": "Pending",
-                            "short_desc": ""
-                        }
-                    },
-                    "refund_eligible": true,
-                    "reason_required": true,
-                    "cancellation_fee": {
-                        "amount": {
-                            "currency": "INR",
-                            "value": "0.0"
-                        }
-                    }
-                },
-                {
-                    "fulfillment_state": {
-                        "descriptor": {
-                            "code": "Agent-assigned",
-                            "short_desc": "001,003"
-                        }
-                    },
-                    "refund_eligible": true,
-                    "reason_required": true,
-                    "cancellation_fee": {
-                        "amount": {
-                            "currency": "INR",
-                            "value": "0.0"
-                        }
-                    }
-                }
-            ],
-            "tags": [
-                {
-                    "code": "bpp_terms",
-                    "list": [
-                        {
-                            "code": "max_liability",
-                            "value": "2"
-                        },
-                        {
-                            "code": "max_liability_cap",
-                            "value": "10000"
-                        },
-                        {
-                            "code": "mandatory_arbitration",
-                            "value": "false"
-                        },
-                        {
-                            "code": "court_jurisdiction",
-                            "value": "Chanigarh"
-                        },
-                        {
-                            "code": "delay_interest",
-                            "value": "1000"
-                        },
-                        {
-                            "code": "static_terms",
-                            "value": "https://github.com/ONDC-Official/protocol-network-extension/discussions/79"
-                        }
-                    ]
-                },
-                {
-                    "code": "bap_terms",
-                    "list": [
-                        {
-                            "code": "accept_bpp_terms",
-                            "value": "Y"
-                        }
-                    ]
-                }
-            ],
-            "created_at": "2024-03-21T10:38:56.422Z",
-            "updated_at": "2024-03-21T10:38:57.113Z"
+            "created_at": "2024-04-24T09:53:42.139Z",
+            "updated_at": "2024-04-24T09:53:43.022Z"
         }
     }
 }

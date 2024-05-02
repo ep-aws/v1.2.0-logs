@@ -7,38 +7,38 @@
     "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
     "bpp_id": "owner.waayu.app/ondcpreprod",
     "bpp_uri": "https://owner.waayu.app/ondcpreprod/",
-    "transaction_id": "6f70aa05-d0ef-4c44-94af-9f986fded107",
-    "message_id": "6c63c667-397e-4a66-b7f0-7dade1569418",
-    "city": "std:022",
+    "transaction_id": "52d8c328-d64a-4e4c-80ca-74f32610d4be",
+    "message_id": "7f12cacd-8e60-40bf-abc6-9a97ac27ac3a",
+    "city": "std:020",
     "country": "IND",
-    "timestamp": "2024-02-20T06:45:54.239Z",
+    "timestamp": "2024-04-16T07:31:47.802Z",
     "ttl": "PT30S"
   },
   "message": {
     "order": {
-      "id": "2024-02-20-805814",
+      "id": "2024-04-16-846816",
       "state": "Cancelled",
-      "provider": { "id": "549", "locations": [{ "id": "L549" }] },
+      "provider": { "id": "35", "locations": [{ "id": "L35" }] },
       "items": [
         {
-          "id": "150033",
+          "id": "143679",
           "fulfillment_id": "WD111",
           "quantity": { "count": 0 }
         },
         {
-          "id": "150033",
-          "fulfillment_id": "WD111",
-          "quantity": { "count": 2 }
-        },
-        {
-          "id": "150044",
-          "fulfillment_id": "WD111",
-          "quantity": { "count": 0 }
-        },
-        {
-          "id": "150044",
+          "id": "143679",
           "fulfillment_id": "WD111",
           "quantity": { "count": 3 }
+        },
+        {
+          "id": "135803",
+          "fulfillment_id": "WD111",
+          "quantity": { "count": 0 }
+        },
+        {
+          "id": "135803",
+          "fulfillment_id": "WD111",
+          "quantity": { "count": 2 }
         }
       ],
       "billing": {
@@ -46,69 +46,69 @@
         "address": {
           "name": "Pankaj Dhote",
           "building": "near Aacharya Shanti Sagar Chawk",
-          "locality": "St George Road",
-          "city": "Mumbai",
+          "locality": "Unnamed Road",
+          "city": "Pune",
           "state": "Maharashtra",
           "country": "IND",
-          "area_code": "400001"
+          "area_code": "411014"
         },
         "email": "pankaj.dhote@desteksolutions.com",
         "phone": "9579269452",
-        "created_at": "2024-02-20T06:44:16.640Z",
-        "updated_at": "2024-02-20T06:44:16.640Z"
+        "created_at": "2024-04-16T07:28:57.595Z",
+        "updated_at": "2024-04-16T07:28:57.595Z"
       },
       "cancellation": {
         "cancelled_by": "buyer-app-preprod-v2.ondc.org",
-        "reason": { "id": "001" }
+        "reason": { "id": "003" }
       },
       "fulfillments": [
         {
           "id": "WD111",
-          "@ondc/org/provider_name": "Guru sind veg Restaurant",
+          "@ondc/org/provider_name": "Coffee House",
           "state": { "descriptor": { "code": "Cancelled" } },
           "type": "Delivery",
           "tracking": true,
           "@ondc/org/TAT": "PT90M",
           "start": {
             "location": {
-              "id": "L549",
-              "descriptor": { "name": "Guru sind veg Restaurant" },
-              "gps": "18.93817572,72.83569569",
+              "id": "L35",
+              "descriptor": { "name": "Coffee House" },
+              "gps": "18.557404,73.928299",
               "address": {
-                "locality": "Shop No, 7, Perin Nariman St, Bazar Gate, Borabazar Precinct, Ballard Estate, Fort, Mumbai, Maharashtra 400001",
+                "locality": "viman nagar pune",
                 "city": "Mumbai",
-                "area_code": "400001",
+                "area_code": "411014",
                 "state": "MH"
               }
             },
             "time": {
               "range": {
-                "start": "2024-02-20T06:49:30.639Z",
-                "end": "2024-02-20T07:29:30.639Z"
+                "start": "2024-04-16T07:34:58.272Z",
+                "end": "2024-04-16T08:14:58.272Z"
               }
             },
             "contact": {
-              "phone": "9819801666",
-              "email": "gstfortmumbai@gmail.com"
+              "phone": "9423946081",
+              "email": "mandar@desteksolutions.com"
             }
           },
           "end": {
             "location": {
-              "gps": "18.93939256133862,72.83649086952211",
+              "gps": "18.567463157396705,73.92617583274843",
               "address": {
                 "name": "Pankaj Dhote",
                 "building": "Pankaj Dhote",
-                "locality": "St George Road",
-                "city": "Mumbai",
+                "locality": "Unnamed Road",
+                "city": "Pune",
                 "state": "Maharashtra",
                 "country": "IND",
-                "area_code": "400001"
+                "area_code": "411014"
               }
             },
             "time": {
               "range": {
-                "start": "2024-02-20T06:54:30.639Z",
-                "end": "2024-02-20T08:19:30.639Z"
+                "start": "2024-04-16T07:39:58.272Z",
+                "end": "2024-04-16T09:04:58.272Z"
               }
             },
             "person": { "name": "Pankaj Dhote" },
@@ -121,17 +121,26 @@
             {
               "code": "cancel_request",
               "list": [
-                { "code": "reason_id", "value": "001" },
+                { "code": "reason_id", "value": "003" },
                 {
                   "code": "initiated_by",
                   "value": "buyer-app-preprod-v2.ondc.org"
-                }
+                },
+                { "code": "rto_id", "value": "CR111" },
+                { "code": "retry_count", "value": "3" }
+              ]
+            },
+            {
+              "code": "precancel_state",
+              "list": [
+                { "code": "fulfillment_state", "value": "Packed" },
+                { "code": "updated_at", "value": "2024-04-16T07:29:58.272Z" }
               ]
             }
           ]
         },
         {
-          "id": "C150033",
+          "id": "CR111",
           "type": "Cancel",
           "state": { "descriptor": { "code": "Cancelled" } },
           "tags": [
@@ -139,15 +148,15 @@
               "code": "quote_trail",
               "list": [
                 { "code": "type", "value": "item" },
-                { "code": "id", "value": "150033" },
+                { "code": "id", "value": "143679" },
                 { "code": "currency", "value": "INR" },
-                { "code": "value", "value": "-220" }
+                { "code": "value", "value": "-1050" }
               ]
             }
           ]
         },
         {
-          "id": "C150044",
+          "id": "CR111",
           "type": "Cancel",
           "state": { "descriptor": { "code": "Cancelled" } },
           "tags": [
@@ -155,9 +164,9 @@
               "code": "quote_trail",
               "list": [
                 { "code": "type", "value": "item" },
-                { "code": "id", "value": "150044" },
+                { "code": "id", "value": "135803" },
                 { "code": "currency", "value": "INR" },
-                { "code": "value", "value": "-360" }
+                { "code": "value", "value": "-200" }
               ]
             }
           ]
@@ -166,31 +175,43 @@
       "quote": {
         "breakup": [
           {
-            "@ondc/org/item_id": "150033",
+            "@ondc/org/item_id": "143679",
             "@ondc/org/item_quantity": { "count": 0 },
-            "title": "Alu Baigan",
+            "title": "Biscuit Cake",
             "@ondc/org/title_type": "item",
-            "item": { "price": { "currency": "INR", "value": "110" } },
+            "item": { "price": { "currency": "INR", "value": "350" } },
             "price": { "currency": "INR", "value": "0" }
           },
           {
-            "@ondc/org/item_id": "150033",
+            "@ondc/org/item_id": "143679",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": { "currency": "INR", "value": "0" }
           },
           {
-            "@ondc/org/item_id": "150044",
-            "title": "Arbi Fry",
+            "@ondc/org/item_id": "135803",
+            "title": "Spicy Chicken Sausage Pizza",
             "@ondc/org/title_type": "item",
             "price": { "currency": "INR", "value": "0" },
             "@ondc/org/item_quantity": { "count": 0 },
-            "item": { "price": { "currency": "INR", "value": "120" } }
+            "item": { "price": { "currency": "INR", "value": "100" } }
           },
           {
-            "@ondc/org/item_id": "150044",
+            "@ondc/org/item_id": "135803",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
+            "price": { "currency": "INR", "value": "0" }
+          },
+          {
+            "@ondc/org/item_id": "WD111",
+            "title": "Delivery charges",
+            "@ondc/org/title_type": "delivery",
+            "price": { "currency": "INR", "value": "0" }
+          },
+          {
+            "@ondc/org/item_id": "WD111",
+            "title": "Packing charges",
+            "@ondc/org/title_type": "packing",
             "price": { "currency": "INR", "value": "0" }
           }
         ],
@@ -198,21 +219,30 @@
         "ttl": "P1D"
       },
       "payment": {
-        "uri": "https://juspay.in/",
+        "uri": "https://razorpay.com/",
         "tl_method": "http/get",
         "params": {
           "currency": "INR",
-          "transaction_id": "e914acaf-95b3-4916-9062-aad4cd8fa26d",
-          "amount": "669"
+          "transaction_id": "order_NzDB1wA9Zz2Nfi",
+          "amount": "1372.50"
         },
         "status": "PAID",
         "type": "ON-ORDER",
         "collected_by": "BAP",
         "@ondc/org/buyer_app_finder_fee_type": "percent",
-        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0",
+        "@ondc/org/settlement_details": [
+          {
+            "settlement_counterparty": "seller-app",
+            "settlement_phase": "refund",
+            "settlement_type": "upi",
+            "beneficiary_name": "Pankaj Dhote",
+            "upi_address": "ppdhote@okaxis"
+          }
+        ]
       },
-      "created_at": "2024-02-20T06:44:30.639Z",
-      "updated_at": "2024-02-20T06:45:54.239Z"
+      "created_at": "2024-04-16T07:31:47.802Z",
+      "updated_at": "2024-04-16T07:31:49.802Z"
     }
   },
   "buyer_response": {
@@ -224,11 +254,11 @@
       "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
       "bpp_id": "owner.waayu.app/ondcpreprod",
       "bpp_uri": "https://owner.waayu.app/ondcpreprod/",
-      "transaction_id": "6f70aa05-d0ef-4c44-94af-9f986fded107",
-      "message_id": "6c63c667-397e-4a66-b7f0-7dade1569418",
-      "city": "std:022",
+      "transaction_id": "52d8c328-d64a-4e4c-80ca-74f32610d4be",
+      "message_id": "7f12cacd-8e60-40bf-abc6-9a97ac27ac3a",
+      "city": "std:020",
       "country": "IND",
-      "timestamp": "2024-02-20T06:45:54.239Z",
+      "timestamp": "2024-04-16T07:31:47.802Z",
       "ttl": "PT30S"
     },
     "message": { "ack": { "status": "ACK" } }

@@ -9,9 +9,9 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "seller.ondc.digiledge.in",
         "bpp_uri": "https://seller.ondc.digiledge.in/v1/preprod",
-        "transaction_id": "c7d12239-617e-4490-baa0-75e36f130bbc",
-        "message_id": "17e47ceb-e2df-48d0-966a-42d86552356b",
-        "timestamp": "2024-03-27T10:11:17.861Z",
+        "transaction_id": "0baec32e-d73b-48a1-9f33-166c35e9d6dd",
+        "message_id": "a94ef938-6826-4426-bac9-014d1d0749d7",
+        "timestamp": "2024-04-19T09:28:50.043Z",
         "ttl": "PT30S"
     },
     "message": {
@@ -26,11 +26,11 @@
             },
             "items": [
                 {
-                    "id": "2db29562-2223-405d-a8bf-d2a509dc4dea",
+                    "id": "1da4bbe6-21f3-43ee-b7cf-a3a3b97c1ff1",
                     "fulfillment_id": "F1"
                 },
                 {
-                    "id": "1da4bbe6-21f3-43ee-b7cf-a3a3b97c1ff1",
+                    "id": "2db29562-2223-405d-a8bf-d2a509dc4dea",
                     "fulfillment_id": "F1"
                 }
             ],
@@ -46,54 +46,27 @@
                             "code": "Serviceable"
                         }
                     },
-                    "tracking": false
+                    "tracking": true
                 },
                 {
                     "id": "F2",
                     "type": "Self-Pickup",
                     "@ondc/org/category": "Takeaway",
                     "@ondc/org/TAT": "PT60M",
-                    "@ondc/org/provider_name": "Sri Sakthi Rice",
                     "state": {
                         "descriptor": {
                             "code": "Serviceable"
                         }
                     },
-                    "tracking": false
+                    "tracking": true
                 }
             ],
             "quote": {
                 "price": {
                     "currency": "INR",
-                    "value": "1820.00"
+                    "value": "1836.00"
                 },
                 "breakup": [
-                    {
-                        "@ondc/org/item_id": "2db29562-2223-405d-a8bf-d2a509dc4dea",
-                        "@ondc/org/item_quantity": {
-                            "count": 2
-                        },
-                        "@ondc/org/title_type": "item",
-                        "item": {
-                            "price": {
-                                "currency": "INR",
-                                "value": "140"
-                            },
-                            "quantity": {
-                                "available": {
-                                    "count": "99"
-                                },
-                                "maximum": {
-                                    "count": "66"
-                                }
-                            }
-                        },
-                        "title": "ASWATHY HOT CHIPS nJACKFRUIT CHIPS 200 g",
-                        "price": {
-                            "currency": "INR",
-                            "value": "280.00"
-                        }
-                    },
                     {
                         "@ondc/org/item_id": "1da4bbe6-21f3-43ee-b7cf-a3a3b97c1ff1",
                         "@ondc/org/item_quantity": {
@@ -110,7 +83,7 @@
                                     "count": "99"
                                 },
                                 "maximum": {
-                                    "count": "48"
+                                    "count": "4"
                                 }
                             }
                         },
@@ -121,12 +94,38 @@
                         }
                     },
                     {
+                        "@ondc/org/item_id": "2db29562-2223-405d-a8bf-d2a509dc4dea",
+                        "@ondc/org/item_quantity": {
+                            "count": 2
+                        },
+                        "@ondc/org/title_type": "item",
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "140"
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "4"
+                                }
+                            }
+                        },
+                        "title": "ASWATHY HOT CHIPS nJACKFRUIT CHIPS 200 g",
+                        "price": {
+                            "currency": "INR",
+                            "value": "280.00"
+                        }
+                    },
+                    {
                         "@ondc/org/item_id": "F1",
                         "@ondc/org/title_type": "packing",
                         "title": "Packing charges",
                         "price": {
                             "currency": "INR",
-                            "value": "20.00"
+                            "value": "28.00"
                         }
                     },
                     {
@@ -135,7 +134,7 @@
                         "title": "Packing charges",
                         "price": {
                             "currency": "INR",
-                            "value": "20.00"
+                            "value": "28.00"
                         }
                     },
                     {

@@ -9,9 +9,9 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "seller.ondc.digiledge.in",
         "bpp_uri": "https://seller.ondc.digiledge.in/v1/preprod",
-        "transaction_id": "a5c301c1-03ea-4c54-a85d-cc6e1a218d45",
-        "message_id": "62524f37-fee3-4e99-8132-3ec5f6d2441f",
-        "timestamp": "2024-03-27T10:19:33.323Z",
+        "transaction_id": "1cbb7d5c-6168-4a66-9a2a-6faaa83e5c54",
+        "message_id": "e05b79ea-9c00-4eeb-966a-cc4c13ebe284",
+        "timestamp": "2024-04-19T09:42:43.114Z",
         "ttl": "PT30S"
     },
     "message": {
@@ -46,26 +46,25 @@
                             "code": "Serviceable"
                         }
                     },
-                    "tracking": false
+                    "tracking": true
                 },
                 {
                     "id": "F2",
                     "type": "Self-Pickup",
                     "@ondc/org/category": "Takeaway",
                     "@ondc/org/TAT": "PT60M",
-                    "@ondc/org/provider_name": "Sri Sakthi Rice",
                     "state": {
                         "descriptor": {
                             "code": "Serviceable"
                         }
                     },
-                    "tracking": false
+                    "tracking": true
                 }
             ],
             "quote": {
                 "price": {
                     "currency": "INR",
-                    "value": "1820.00"
+                    "value": "1836.00"
                 },
                 "breakup": [
                     {
@@ -84,7 +83,7 @@
                                     "count": "99"
                                 },
                                 "maximum": {
-                                    "count": "44"
+                                    "count": "4"
                                 }
                             }
                         },
@@ -110,7 +109,7 @@
                                     "count": "99"
                                 },
                                 "maximum": {
-                                    "count": "62"
+                                    "count": "4"
                                 }
                             }
                         },
@@ -126,7 +125,7 @@
                         "title": "Packing charges",
                         "price": {
                             "currency": "INR",
-                            "value": "20.00"
+                            "value": "28.00"
                         }
                     },
                     {
@@ -135,7 +134,7 @@
                         "title": "Packing charges",
                         "price": {
                             "currency": "INR",
-                            "value": "20.00"
+                            "value": "28.00"
                         }
                     },
                     {
