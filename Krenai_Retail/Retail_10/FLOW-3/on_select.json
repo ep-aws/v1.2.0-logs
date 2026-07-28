@@ -7,9 +7,9 @@
         "core_version": "1.2.0",
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "transaction_id": "1588ec9f-5ba6-4e59-a85f-a493ec199d97",
-        "message_id": "467043cc-6b9c-4b2f-8830-11b8b7fc05de",
-        "timestamp": "2024-04-28T03:01:35.510Z",
+        "transaction_id": "85ffff9a-dd41-4dad-9b1a-905b668cad0a",
+        "message_id": "dc0b8556-5c9e-45ec-94d9-06be67d8db4c",
+        "timestamp": "2024-08-06T05:30:58.578Z",
         "ttl": "PT30S",
         "bpp_id": "storepreprod.krenai.in",
         "bpp_uri": "https://storepreprod.krenai.in/ondc/"
@@ -18,7 +18,7 @@
         "order": {
             "fulfillments": [
                 {
-                    "id": "717",
+                    "id": "717_85ffff9a-dd41-4dad-9b1a-905b668cad0a",
                     "tracking": true,
                     "state": {
                         "descriptor": {
@@ -26,19 +26,19 @@
                         }
                     },
                     "type": "Delivery",
-                    "@ondc/org/provider_name": "KRENAI SERVICES PRIVATE LIMITED",
-                    "@ondc/org/TAT": "P5D",
+                    "@ondc/org/provider_name": "Krenai Services Pvt Ltd",
+                    "@ondc/org/TAT": "P3D",
                     "@ondc/org/category": "Standard Delivery"
                 }
             ],
             "items": [
                 {
-                    "id": "4ca77026",
-                    "fulfillment_id": "717"
+                    "id": "a5380814",
+                    "fulfillment_id": "717_85ffff9a-dd41-4dad-9b1a-905b668cad0a"
                 },
                 {
-                    "id": "22563112",
-                    "fulfillment_id": "717"
+                    "id": "88549691",
+                    "fulfillment_id": "717_85ffff9a-dd41-4dad-9b1a-905b668cad0a"
                 }
             ],
             "provider": {
@@ -52,24 +52,24 @@
             "quote": {
                 "price": {
                     "currency": "INR",
-                    "value": "650.23"
+                    "value": "592.25"
                 },
                 "breakup": [
                     {
-                        "title": "catch Turmeric",
+                        "title": "Roff T16 Cera Clean Rapid Action Tile and Ceramic Cleaner",
                         "price": {
                             "currency": "INR",
-                            "value": "320.00"
+                            "value": "450.00"
                         },
-                        "@ondc/org/item_id": "4ca77026",
+                        "@ondc/org/item_id": "a5380814",
                         "@ondc/org/title_type": "item",
                         "@ondc/org/item_quantity": {
-                            "count": 4
+                            "count": 3
                         },
                         "item": {
                             "price": {
                                 "currency": "INR",
-                                "value": "80.00"
+                                "value": "150.00"
                             },
                             "quantity": {
                                 "available": {
@@ -82,20 +82,20 @@
                         }
                     },
                     {
-                        "title": "Catch masala",
+                        "title": "Frooti Mango Drink, 300 ml",
                         "price": {
                             "currency": "INR",
-                            "value": "300.00"
+                            "value": "112.00"
                         },
-                        "@ondc/org/item_id": "22563112",
+                        "@ondc/org/item_id": "88549691",
                         "@ondc/org/title_type": "item",
                         "@ondc/org/item_quantity": {
-                            "count": 5
+                            "count": 4
                         },
                         "item": {
                             "price": {
                                 "currency": "INR",
-                                "value": "60.00"
+                                "value": "28.00"
                             },
                             "quantity": {
                                 "available": {
@@ -111,18 +111,18 @@
                         "title": "Delivery Charges",
                         "price": {
                             "currency": "INR",
-                            "value": "8.00"
+                            "value": "10.00"
                         },
-                        "@ondc/org/item_id": "717",
+                        "@ondc/org/item_id": "717_85ffff9a-dd41-4dad-9b1a-905b668cad0a",
                         "@ondc/org/title_type": "delivery"
                     },
                     {
                         "title": "Convenience Fee",
                         "price": {
                             "currency": "INR",
-                            "value": "22.23"
+                            "value": "20.25"
                         },
-                        "@ondc/org/item_id": "717",
+                        "@ondc/org/item_id": "717_85ffff9a-dd41-4dad-9b1a-905b668cad0a",
                         "@ondc/org/title_type": "misc"
                     }
                 ],

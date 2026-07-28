@@ -9,19 +9,19 @@
         "bap_uri": "https://ondc-buyer.stagingshop.com/protocol/v1",
         "bpp_id": "ref-app-seller-staging-v2.ondc.org",
         "bpp_uri": "https://ref-app-seller-staging-v2.ondc.org",
-        "transaction_id": "1f454923-b95f-4928-ac7a-9603d374c7c3",
-        "message_id": "dbf659de-897d-449c-a90d-435e5a8588be",
-        "timestamp": "2024-04-25T05:31:11.690Z"
+        "transaction_id": "ec81ce3a-e27e-4102-899f-46cecb6657c9",
+        "message_id": "f487336c-fd58-486e-9115-1ad7e7d2214d",
+        "timestamp": "2024-07-16T08:10:56.207Z"
     },
     "message": {
         "issue": {
-            "id": "06a48029-77f9-4bf4-9dc0-b85f56cad889",
+            "id": "eededce0-2ead-4e4a-aa6c-822b809ca0f8",
             "issue_actions": {
                 "respondent_actions": [
                     {
                         "respondent_action": "PROCESSING",
                         "short_desc": "We are investigating your concern.",
-                        "updated_at": "2024-04-25T05:10:33.725Z",
+                        "updated_at": "2024-07-16T08:02:13.273Z",
                         "updated_by": {
                             "org": {
                                 "name": "ref-app-seller-staging-v2.ondc.org::ONDC:RET14"
@@ -39,7 +39,7 @@
                     {
                         "respondent_action": "CASCADED",
                         "short_desc": "We have sent your request to logistics.",
-                        "updated_at": "2024-04-25T05:10:33.725Z",
+                        "updated_at": "2024-07-16T08:02:13.273Z",
                         "updated_by": {
                             "org": {
                                 "name": "ref-app-seller-staging-v2.ondc.org::ONDC:RET14"
@@ -57,7 +57,7 @@
                     {
                         "respondent_action": "PROCESSING",
                         "short_desc": "Complaint is being processed",
-                        "updated_at": "2024-04-25T05:29:10.543Z",
+                        "updated_at": "2024-07-16T08:02:13.866Z",
                         "updated_by": {
                             "org": {
                                 "name": "ref-logistics-app-stage.ondc.org::nic2004:60232"
@@ -75,8 +75,8 @@
                     {
                         "cascaded_level": 1,
                         "respondent_action": "RESOLVED",
-                        "short_desc": "Your item is reaching shortly",
-                        "updated_at": "2024-04-25T05:31:11.690Z",
+                        "short_desc": "Your package is few minutes away",
+                        "updated_at": "2024-07-16T08:10:56.206Z",
                         "updated_by": {
                             "contact": {
                                 "email": "api@zrpl.co.in",
@@ -94,8 +94,8 @@
             },
             "resolution": {
                 "action_triggered": "NO-ACTION",
-                "long_desc": "Your item is reaching shortly, we got updated from the logistic partner",
-                "short_desc": "Your item is reaching shortly"
+                "long_desc": "You will get your package within an hour",
+                "short_desc": "Your package is few minutes away"
             },
             "resolution_provider": {
                 "respondent_info": {
@@ -133,8 +133,8 @@
                     }
                 }
             },
-            "created_at": "2024-04-25T05:10:33.628Z",
-            "updated_at": "2024-04-25T05:31:11.690Z"
+            "created_at": "2024-07-16T08:02:13.140Z",
+            "updated_at": "2024-07-16T08:10:56.206Z"
         }
     }
 }
